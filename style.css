@@ -1,0 +1,39 @@
+@import url('styles/bootstrap.min.css');
+@import url('styles/bootstrap-theme.min.css');
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+@import url('//netdna.bootstrapcdn.com/bootswatch/3.0.3/journal/bootstrap.min.css');
+
+/*
+Theme Name: Naked Wordpress -Kaleigh
+Theme URI: http://bckmn.com/naked-wordpress
+Author: Kaleigh Leach
+Author URI: http://bckmn.com
+Description: A super bare theme for designers who don't know Wordpress PHP but want to build with Wordpress.
+Version: 1.0
+License: GNU General Public License
+
+-------------------------------------------------------------- */
+/* Reset
+-------------------------------------------------------------- */
+
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 979px) {
+            body {
+                padding-top: 15px;
+                position: relative;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+/**Responsive Elements**/
+  img {
+      max-width: 100%; /**makes images resize nicely**/
+  }
+
+  @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
